@@ -18,5 +18,7 @@ function fetchData() {
   //fetchData();
   
   // Fetch data every 10 seconds
-  setInterval(fetchData, 10000); // 10 seconds = 10000 milliseconds
+  //setInterval(fetchData, 10000); // 10 seconds = 10000 milliseconds
+fetchData();
+fetch("https://api.render.com/deploy/srv-cn74c0mn7f5s73d9ispg?key=Bkn3UUceoOM");
   
